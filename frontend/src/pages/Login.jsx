@@ -63,7 +63,12 @@ const Login = () => {
                         <h2>Login</h2>
 
                         <Form onSubmit={handleClick}>
-                          <
+                           <FormGroup>
+                              <input type="email" placeholder='Email' id='email' onChange={handleChange} required />
+                           </FormGroup>
+                           <FormGroup>
+                              <input type="password" placeholder='Password' id='password' onChange={handleChange} required />
+                           </FormGroup>
                            <Button className='btn secondary__btn auth__btn' type='submit'>Login</Button>
                         </Form>
                         <p>Don't have an account? <Link to='/register'>Create</Link></p>
