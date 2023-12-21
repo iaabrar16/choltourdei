@@ -48,7 +48,7 @@ const Login = () => {
 
    return (
       <section>
-         <Container>
+             <Container>
             <Row>
                <Col lg='8' className='m-auto'>
                   <div className="login__container d-flex justify-content-between">
@@ -77,6 +77,7 @@ const Login = () => {
                </Col>
             </Row>
          </Container>
+      
       </section>
    )
 }
