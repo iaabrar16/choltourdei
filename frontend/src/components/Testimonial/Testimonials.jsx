@@ -38,49 +38,10 @@ const Testimonials = () => {
          }
       ]
    }
-
+   /*Testimonials*/
    return <Slider {...settings}>
       <div className="testimonial py-4 px-3">
-         <p>Travel World has transformed the way I see the world. Their attention to detail and personalized service made my trip unforgettable. I can't wait for my next adventure with them!
-         </p>
-
-         <div className='d-flex align-items-center gap-4 mt-3'>
-            <img src={Aabrar} className='w-25 h-25 rounded-2' alt="" />
-            <div>
-               <h6 className='mb-0 mt-3'>Ismail Aabrar</h6>
-               <p>Customer</p>
-            </div>
-         </div> 
-      </div>
-
-      <div className="testimonial py-4 px-3">
-         <p>Travel World's tours are simply amazing. They take care of everything, allowing me to fully immerse myself in the experience. Highly recommended!
-         </p>
-
-         <div className='d-flex align-items-center gap-4 mt-3'>
-            <img src={Nirob} className='w-25 h-25 rounded-2' alt="" />
-            <div>
-               <h6 className='mb-0 mt-3'>Shazid Nirob</h6>
-               <p>Customer</p>
-            </div>
-         </div> 
-      </div>
-
-      <div className="testimonial py-4 px-3">
-         <p>I've been on three tours with Travel World and each one was unique and exciting. Their guides are knowledgeable and friendly. Can't wait for my next trip!
-         </p>
-
-         <div className='d-flex align-items-center gap-4 mt-3'>
-            <img src={shemin} className='w-25 h-25 rounded-2' alt="" />
-            <div>
-               <h6 className='mb-0 mt-3'>Shemin Mirza</h6>
-               <p>Customer</p>
-            </div>
-         </div> 
-      </div>
-
-      <div className="testimonial py-4 px-3">
-         <p>I've been on three tours with Travel World and each one was unique and exciting. Their guides are knowledgeable and friendly. Can't wait for my next trip!
+         <p>I've been on three tours with Chol Tour Dei and each one was unique and exciting. Their guides are knowledgeable and friendly. Can't wait for my next trip!
          </p>
 
          <div className='d-flex align-items-center gap-4 mt-3'>
@@ -93,7 +54,46 @@ const Testimonials = () => {
       </div>
 
       <div className="testimonial py-4 px-3">
-         <p>I've been on three tours with Travel World and each one was unique and exciting. Their guides are knowledgeable and friendly. Can't wait for my next trip!
+         <p>Chol Tour Dei has transformed the way I see the world. Their attention to detail and personalized service made my trip unforgettable. I can't wait for my next adventure with them!
+         </p>
+
+         <div className='d-flex align-items-center gap-4 mt-3'>
+            <img src={Aabrar} className='w-25 h-25 rounded-2' alt="" />
+            <div>
+               <h5 className='mb-0 mt-3'>Ismail Aabrar</h5>
+               <p>Customer</p>
+            </div>
+         </div> 
+      </div>
+
+      <div className="testimonial py-4 px-3">
+         <p>Chol Tour Dei tours are simply amazing. They take care of everything, allowing me to fully immerse myself in the experience. Highly recommended!
+         </p>
+
+         <div className='d-flex align-items-center gap-4 mt-3'>
+            <img src={Nirob} className='w-25 h-25 rounded-2' alt="" />
+            <div>
+               <h6 className='mb-0 mt-3'>Shazid Nirob</h6>
+               <p>Customer</p>
+            </div>
+         </div> 
+      </div>
+
+      <div className="testimonial py-4 px-3">
+         <p>I've been on three tours with Chol Tour Dei and each one was unique and exciting. Their guides are knowledgeable and friendly. Can't wait for my next trip!
+         </p>
+
+         <div className='d-flex align-items-center gap-4 mt-3'>
+            <img src={shemin} className='w-25 h-25 rounded-2' alt="" />
+            <div>
+               <h6 className='mb-0 mt-3'>Shemin Mirza</h6>
+               <p>Customer</p>
+            </div>
+         </div> 
+      </div>
+
+      <div className="testimonial py-4 px-3">
+         <p>I've been on three tours with Chol Tour Dei and each one was unique and exciting. Their guides are knowledgeable and friendly. Can't wait for my next trip!
          </p>
 
          <div className='d-flex align-items-center gap-4 mt-3'>
