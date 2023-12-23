@@ -7,7 +7,7 @@ import galleryImg06 from '../../assets/images/gallery-06.jpg'
 import galleryImg07 from '../../assets/images/gallery-07.jpg'
 import galleryImg08 from '../../assets/images/gallery-02.jpg'
 
-
+/*Gallery Images*/
 const galleryImages = [
    galleryImg01,
    galleryImg02,

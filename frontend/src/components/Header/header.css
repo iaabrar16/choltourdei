@@ -1,8 +1,8 @@
 :root {
-   --primary-color     : #ff7e01;
-   --secondary-color   : #faa935;
-   --heading-color     : #0b2727;
-   --text-color        : #6e7074;
+   --primary-color     : #ff8000;
+   --secondary-color   : #f8a735;
+   --heading-color     : #0c2b2b;
+   --text-color        : #6d6f72;
    --font-name         : "Montserrat", sans-serif;
    --subtitle-font-name: "Island Moments", cursive;
 }
@@ -14,7 +14,7 @@
 }
 
 .logo img {
-   width: 30%;
+   width: 29%;
 }
 
 .menu {
@@ -50,7 +50,7 @@
    position   : sticky;
    top        : 0;
    left       : 0;
-   box-shadow : 3px 3px 8px -3px #ddd;
+   box-shadow : 3px 3px 8px -3px #b9b8b8;
    z-index    : 999;
 }
 
@@ -66,7 +66,7 @@
       position  : fixed;
       top       : 0;
       left      : 0;
-      background: rgba(0, 0, 0, 0.4);
+      background: rgba(3, 3, 3, 0.4);
       z-index   : 999;
       display   : none;
    }
