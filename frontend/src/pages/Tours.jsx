@@ -9,7 +9,6 @@ import { Col, Container, Row } from 'reactstrap'
 import useFetch from '../hooks/useFetch'
 import { BASE_URL } from '../utils/config'
 
-
 const Tours = () => {
    const [pageCount, setPageCount] = useState(0)
    const [page, setPage] = useState(0)
