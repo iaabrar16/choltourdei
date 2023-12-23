@@ -92,7 +92,7 @@ const TourDetails = () => {
                               <span><i class='ri-map-pin-time-line'></i> {distance} k/m</span>
                               <span><i class='ri-group-line'></i> {maxGroupSize} people</span>
                            </div>
-                           <h4>Description</h4>
+                           <h5>Description</h5>
                            <p>{desc}</p>
                         </div>
 
@@ -110,7 +110,7 @@ const TourDetails = () => {
                               </div>
 
                               <div className="review__input">
-                                 <input type="text" ref={reviewMsgRef} placeholder='Share Your Thoughts' required />
+                                 <input type="text" ref={reviewMsgRef} placeholder='share your thoughts' required />
                                  <button className='btn primary__btn text-white' type='submit'>
                                     Submit
                                  </button>
