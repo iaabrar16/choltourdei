@@ -43,7 +43,7 @@ const Footer = () => {
                <Col lg='3'>
                   <div className="logo">
                      <img src={logo} alt="" />
-                     <p>Welcome to our website! We're here to help you plan your dream vacations.</p>
+                     <p>Welcome to our Website! We're here to help you plan your dream vacations.</p>
                      <div className="social__link d-flex align-items-center gap-4">
                         <span>
                            <Link to='#'>
@@ -83,7 +83,7 @@ const Footer = () => {
                   </ListGroup>
                </Col>
                <Col lg='3'>
-                  <h5 className="footer__link-title">Quick Links</h5>
+                  <h5 className="footer__link-title">Links</h5>
 
                   <ListGroup className='footer__quick-links'>
                      {
@@ -96,7 +96,7 @@ const Footer = () => {
                   </ListGroup>
                </Col>
                <Col lg='3'>
-                  <h5 className="footer__link-title">Contact</h5>
+                  <h5 className="footer__link-title">Contact info</h5>
 
                   <ListGroup className='footer__quick-links'>
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
@@ -113,7 +113,7 @@ const Footer = () => {
                            Email:
                         </h6>
 
-                        <p className='mb-0'>choltourdei@gmail.com</p>
+                        <p className='mb-0'>choltourdei1@gmail.com</p>
                      </ListGroupItem>
 
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
@@ -122,7 +122,7 @@ const Footer = () => {
                            Phone:
                         </h6>
 
-                        <p className='mb-0'>+880 123456789</p>
+                        <p className='mb-0'>+880123456789 || 01886182050</p>
                      </ListGroupItem>
                   </ListGroup>
                </Col>
