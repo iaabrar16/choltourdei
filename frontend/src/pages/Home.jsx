@@ -16,7 +16,7 @@ import NewsLetter from '../shared/Newsletter'
 
 const Home = () => {
    return <>
-      {/* ========== HERO SECTION ========== */}
+      {/* ========= HERO SECTION ========= */}
       <section>
          <Container>
             <Row>
@@ -26,9 +26,9 @@ const Home = () => {
                         <Subtitle subtitle={'Know Before You Go'} />
                         <img src={worldImg} alt="" />
                      </div>
-                     <h1>Traveling opens the door to creating <span className='hightlight'> Memories</span></h1>
+                     <h1>Traveling Opens the door to creating <span className='hightlight'> Memories</span></h1>
                      <p>
-                     We believe that traveling opens the door to creating memories. Our mission is to provide you with unforgettable experiences, taking you to some of the  most breathtaking places.
+                     We believe that traveling opens the door to creating memories. Our mission is to provide you with unforgettable experiences, taking you to some of the most breathtaking places.
                      </p>
                   </div>
                </Col>
@@ -60,7 +60,7 @@ const Home = () => {
          <Container>
             <Row>
                <Col lg='3'>
-                  <h5 className="services__subtitle">What we serve</h5>
+                  <h5 className="services__subtitle">What We Serve</h5>
                   <h2 className="services__title">We offer our best services</h2>
                </Col>
                <ServiceList />
@@ -74,7 +74,7 @@ const Home = () => {
             <Row>
                <Col lg='12' className='mb-5'>
                   <Subtitle subtitle={'Explore'} />
-                  <h2 className='featured__tour-title'>Our featured tours</h2>
+                  <h2 className='featured__tour-title'>Our Featured Tours</h2>
                </Col>
                <FeaturedTourList />
             </Row>
@@ -89,7 +89,7 @@ const Home = () => {
                <Col lg='6'>
                   <div className="experience__content">
                      <Subtitle subtitle={'Experience'} />
-                     <h2>With our all experience <br /> we will serve you</h2>
+                     <h2>With our all experience <br /> We will serve you</h2>
                      <p>Our user-friendly website allows you to easily navigate through our offerings.
                      You can search for your dream location, specify the distance you're willing to travel, and even select the maximum number of people you'd like in your group. </p>
                   </div>
@@ -97,15 +97,15 @@ const Home = () => {
                   <div className="counter__wrapper d-flex align-items-center gap-5">
                      <div className="counter__box">
                         <span>12k+</span>
-                        <h6>Successful trip</h6>
+                        <h6>Successful Trip</h6>
                      </div>
                      <div className="counter__box">
                         <span>2k+</span>
-                        <h6>Regular clients</h6>
+                        <h6>Regular Clients</h6>
                      </div>
                      <div className="counter__box">
-                        <span>15</span>
-                        <h6>Year experience</h6>
+                        <span>5</span>
+                        <h6>Year Experience</h6>
                      </div>
                   </div>
                </Col>
