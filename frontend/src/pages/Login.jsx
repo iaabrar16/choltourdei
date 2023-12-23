@@ -64,14 +64,14 @@ const Login = () => {
 
                         <Form onSubmit={handleClick}>
                            <FormGroup>
-                              <input type="email" placeholder='Email' id='email' onChange={handleChange} required />
+                              <input type="email" placeholder='Email..' id='email' onChange={handleChange} required />
                            </FormGroup>
                            <FormGroup>
-                              <input type="password" placeholder='Password' id='password' onChange={handleChange} required />
+                              <input type="password" placeholder='Password..' id='password' onChange={handleChange} required />
                            </FormGroup>
                            <Button className='btn secondary__btn auth__btn' type='submit'>Login</Button>
                         </Form>
-                        <p>Don't have an account? <Link to='/register'>Create</Link></p>
+                        <p>Don't have an account? Want to SignUp? <Link to='/register'>Create</Link></p>
                      </div>
                   </div>
                </Col>
