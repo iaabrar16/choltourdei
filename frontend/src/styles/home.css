@@ -1,7 +1,7 @@
 :root {
-   --primary-color     : #ff7e01;
-   --secondary-color   : #faa935;
-   --heading-color     : #0b2727;
+   --primary-color     : #e4984d;
+   --secondary-color   : #f7a83b;
+   --heading-color     : #0c2e2e;
    --text-color        : #6e7074;
    --font-name         : "Montserrat", sans-serif;
    --subtitle-font-name: "Island Moments", cursive;
@@ -13,7 +13,7 @@
 }
 
 .hero__content h1 {
-   font-size    : 2.5rem;
+   font-size    : 2.4rem;
    font-weight  : 600;
    margin-top   : 1rem;
    margin-bottom: 2rem;
