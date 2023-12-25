@@ -9,7 +9,7 @@
 }
 
 .login__form {
-   padding   : 50px;
+   padding   : 60px;
    background: var(--secondary-color);
    position  : relative;
 }
