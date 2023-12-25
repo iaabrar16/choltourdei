@@ -56,7 +56,7 @@ const Register = () => {
                         <div className="user">
                            <img src={userIcon} alt="" />
                         </div>
-                        <h2>Register</h2>
+                        <h2>REGISTER</h2>
 
                         <Form onSubmit={handleClick}>
                            <FormGroup>
