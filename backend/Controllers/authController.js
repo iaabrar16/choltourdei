@@ -54,6 +54,6 @@ export const login = async (req, res) => {
          expires: token.expiresIn
       }).status(200).json({token, data:{...rest}, role})
    } catch (error) {
-      res.status(500).json({ susccess: false, message: "Failed to login" })
+      res.status(500).json({ susccess: false, message: "login Failed" })
    }
 }
