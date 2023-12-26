@@ -104,7 +104,7 @@ const Home = () => {
                         <h6>Regular Clients</h6>
                      </div>
                      <div className="counter__box">
-                        <span>5</span>
+                        <span>8</span>
                         <h6>Year Experience</h6>
                      </div>
                   </div>
