@@ -6,10 +6,7 @@
    top          : 80px;
 }
 
-.booking__top h3 {
-   font-size  : 1.2rem;
-   font-weight: 700;
-}
+
 
 .booking__top h3 span {
    font-size  : 1rem;
@@ -23,9 +20,7 @@
    color      : var(--text-color);
 }
 
-.booking__top span i {
-   color: var(--secondary-color);
-}
+
 
 .booking__top {
    padding-bottom: 1rem;
@@ -65,12 +60,7 @@
    justify-content: space-between;
 }
 
-.booking__bottom li h5,
-.booking__bottom li span {
-   font-size: 0.7rem;
-   font-weight: 500;
-   color: var(--text-color);
-}
+
 
 .total h5,
 .total span {
@@ -79,7 +69,28 @@
    color: var(--heading-color) !important;
 }
 
+
+
+.booking__top h3 {
+   font-size  : 1.2rem;
+   font-weight: 700;
+}
+
 .booking__bottom Button:hover {
    transform: scale(1.1);
    transition: 0.5s;
+}
+
+
+
+
+.booking__bottom li h5,
+.booking__bottom li span {
+   font-size: 0.7rem;
+   font-weight: 500;
+   color: var(--text-color);
+}
+
+.booking__top span i {
+   color: var(--secondary-color);
 }
