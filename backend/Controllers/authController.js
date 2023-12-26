@@ -18,7 +18,7 @@ export const register = async (req, res) => {
 
       await newUser.save()
 
-      res.status(200).json({ success: true, message: "Successfully created!" })
+      res.status(200).json({ success: true, message: " created Successfully!" })
    } catch (error) {
       res.status(500).json({ success: false, message: "Failed to create! Try again." })
    }
@@ -54,6 +54,6 @@ export const login = async (req, res) => {
          expires: token.expiresIn
       }).status(200).json({token, data:{...rest}, role})
    } catch (error) {
-      res.status(500).json({ susccess: false, message: "Failed to login" })
+      res.status(500).json({ susccess: false, message: "login Failed" })
    }
 }
