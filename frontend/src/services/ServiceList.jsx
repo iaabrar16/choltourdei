@@ -18,13 +18,13 @@ const servicesData = [
       imgUrl: guideImg,
       title: `Best Tour Guide`,
       desc: `Expert Guided Tours.
-      Explore mazing destinations with our experienced tour guides who provide in-depth knowledge.`,
+      Explore Amazing Destinations With Our Experienced Tour Guides Who Provide in-depth Knowledge.`,
    },
    {
       imgUrl: customizationImg,
       title: 'Customization',
       desc: `Tailored Solutions.
-      We create personalized solutions to meet your unique needs and preferences, ensuring your satisfaction.`,
+      We Create Personalized Solutions To meet your Unique needs and preferences, ensuring your Satisfaction.`,
    },
 ]
 
