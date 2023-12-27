@@ -1,9 +1,11 @@
 import React from 'react'
-import ServiceCard from './ServiceCard'
-import { Col } from 'reactstrap'
 import weatherImg from '../assets/images/weather.png'
 import guideImg from '../assets/images/guide.png'
 import customizationImg from '../assets/images/customization.png'
+import ServiceCard from './ServiceCard'
+import { Col } from 'reactstrap'
+
+
 
 const servicesData = [
    {
@@ -16,7 +18,7 @@ const servicesData = [
       imgUrl: guideImg,
       title: `Best Tour Guide`,
       desc: `Expert Guided Tours.
-      Explore amazing destinations with our experienced tour guides who provide in-depth knowledge.`,
+      Explore mazing destinations with our experienced tour guides who provide in-depth knowledge.`,
    },
    {
       imgUrl: customizationImg,
