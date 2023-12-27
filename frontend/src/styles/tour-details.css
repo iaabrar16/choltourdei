@@ -15,13 +15,7 @@
    font-size: 1.5rem;
 }
 
-.tour__info span {
-   display    : flex;
-   align-items: center;
-   column-gap : 0.5rem;
-   font-size  : 0.8rem;
-   color      : var(--text-color);
-}
+
 
 .tour__info span i {
    color    : var(--secondary-color);
@@ -131,3 +125,12 @@
       font-size: 1rem;
    }
 }  
+
+
+.tour__info span {
+   display    : flex;
+   align-items: center;
+   column-gap : 0.5rem;
+   font-size  : 0.8rem;
+   color      : var(--text-color);
+}
