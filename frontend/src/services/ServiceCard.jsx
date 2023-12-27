@@ -12,7 +12,12 @@ const ServiceCard = ({ item }) => {
          <h6>{title}</h6>
          <p>{desc}</p>
       </div>
+
    )
+
 }
+
+
+
 
 export default ServiceCard

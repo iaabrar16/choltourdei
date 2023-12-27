@@ -4,13 +4,14 @@
    margin-top: 3rem;
 }
 
-.newsletter__content {
-   padding: 50px 0;
-}
+
 
 .newsletter__content h2 {
    font-size    : 2rem;
    margin-bottom: 1.4rem;
+}
+.newsletter__content {
+   padding: 50px 0;
 }
 
 .newsletter__content p {
@@ -18,15 +19,7 @@
    font-size: 1rem;
 }
 
-.newsletter__input {
-   display        : flex;
-   align-items    : center;
-   justify-content: space-between;
-   background     : #fff;
-   padding        : 0.4rem;
-   margin-bottom  : 0.8rem;
-   border-radius  : 5px;
-}
+
 
 .newsletter__input input {
    border   : none;
@@ -72,4 +65,13 @@
    .newsletter__content p {
       display: none;
    }
+}
+.newsletter__input {
+   display        : flex;
+   align-items    : center;
+   justify-content: space-between;
+   background     : #fff;
+   padding        : 0.4rem;
+   margin-bottom  : 0.8rem;
+   border-radius  : 5px;
 }
