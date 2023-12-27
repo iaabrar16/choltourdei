@@ -13,6 +13,11 @@
    font-weight    : 500;
 }
 
+
+
+
+
+
 .active__page {
    background: var(--secondary-color);
    color     : #fff !important;
