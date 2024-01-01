@@ -54,7 +54,7 @@ const Testimonials = () => {
       </div>
 
       <div className="testimonial py-4 px-3">
-         <p>Travel World's tours are simply amazing. They take care of everything, allowing me to fully immerse myself in the experience. Highly recommended!
+         <p>CholTourDei tours are simply amazing. They take care of everything, allowing me to fully immerse myself in the experience. Highly recommended!
          </p>
 
          <div className='d-flex align-items-center gap-4 mt-3'>
