@@ -24,7 +24,7 @@ export const updateTour = async (req, res) => {
 
       res.status(200).json({ success: true, message: 'Successfully updated', data: updatedTour })
    } catch (error) {
-      res.status(500).json({ success: false, message: 'Failed to update' })
+      res.status(500).json({ success: false, message: 'Failed to update!' })
    }
 }
 
@@ -37,7 +37,7 @@ export const deleteTour = async (req, res) => {
 
       res.status(200).json({ success: true, message: 'Successfully deleted' })
    } catch (error) {
-      res.status(500).json({ success: false, message: 'Failed to delete' })
+      res.status(500).json({ success: false, message: 'Failed to delete!' })
    }
 }
 
@@ -103,12 +103,12 @@ export const getFeaturedTour = async (req, res) => {
 }
 
 //Get tour count 
-export const getTourCount = async(req,res) => {
+export const getTourCount = async (req, res) => {
    try {
       const tourCount = await Tour.estimatedDocumentCount()
 
-      res.status(200).json({success:true, data:tourCount})
+      res.status(200).json({ success: true, data: tourCount })
    } catch (error) {
-      res.status(500).json({success:false, message: "Failed to fetch"})
+      res.status(500).json({ success: false, message: "Failed to fetch" })
    }
 }
