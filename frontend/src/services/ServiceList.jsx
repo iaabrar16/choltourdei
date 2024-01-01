@@ -14,7 +14,7 @@ const servicesData = [
    },
    {
       imgUrl: guideImg,
-      title: `Best Tour Guide`,
+      title: `Best Tour Guides`,
       desc: `Expert Guided Tours.
       Explore amazing destinations with our experienced tour guides who provide in-depth knowledge.`,
    },
