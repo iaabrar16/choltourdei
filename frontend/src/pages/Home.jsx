@@ -16,7 +16,7 @@ import NewsLetter from '../shared/Newsletter'
 
 const Home = () => {
    return <>
-      {/* ========== HERO SECTION ========== */}
+      {/* HERO SECTION  */}
       <section>
          <Container>
             <Row>
@@ -53,7 +53,6 @@ const Home = () => {
             </Row>
          </Container>
       </section>
-      {/* ============================================================== */}
 
       {/* ==================== HERO SECTION START ====================== */}
       <section>
@@ -68,7 +67,7 @@ const Home = () => {
          </Container>
       </section>
 
-      {/* ========== FEATURED TOUR SECTION START ========== */}
+      {/*  FEATURED TOUR SECTION START */}
       <section>
          <Container>
             <Row>
@@ -80,9 +79,9 @@ const Home = () => {
             </Row>
          </Container>
       </section>
-      {/* ========== FEATURED TOUR SECTION END =========== */}
+      {/*  FEATURED TOUR SECTION END  */}
 
-      {/* ========== EXPERIENCE SECTION START ============ */}
+      {/* EXPERIENCE SECTION START  */}
       <section>
          <Container>
             <Row>
@@ -117,15 +116,15 @@ const Home = () => {
             </Row>
          </Container>
       </section>
-      {/* ========== EXPERIENCE SECTION END ============== */}
+      {/* EXPERIENCE SECTION END  */}
 
-      {/* ========== GALLERY SECTION START ============== */}
+      {/*  GALLERY SECTION START  */}
       <section>
          <Container>
             <Row>
                <Col lg='12'>
                   <Subtitle subtitle={'Gallery'} />
-                  <h2 className="gallery__title">Visit our customers tour gallery</h2>
+                  <h2 className="gallery__title">Visit our Customers tour gallery</h2>
                </Col>
                <Col lg='12'>
                   <MasonryImagesGallery />
@@ -133,9 +132,9 @@ const Home = () => {
             </Row>
          </Container>
       </section>
-      {/* ========== GALLERY SECTION END ================ */}
+      {/* GALLERY SECTION END  */}
 
-      {/* ========== TESTIMONIAL SECTION START ================ */}
+      {/*  TESTIMONIAL SECTION START  */}
       <section>
          <Container>
             <Row>
@@ -149,7 +148,7 @@ const Home = () => {
             </Row>
          </Container>
       </section>
-      {/* ========== TESTIMONIAL SECTION END ================== */}
+      {/*  TESTIMONIAL SECTION END  */}
       <NewsLetter />
    </>
 }
