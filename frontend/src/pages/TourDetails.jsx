@@ -66,7 +66,7 @@ const TourDetails = () => {
    return (
       <section>
          <Container>
-            {loading && <h4 className='text-center pt-5'>LOADING.........</h4>}
+            {loading && <h4 className='text-center pt-5'>LOADING......</h4>}
             {error && <h4 className='text-center pt-5'>{error}</h4>}
             {
                !loading && !error &&
