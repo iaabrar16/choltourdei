@@ -68,7 +68,7 @@ const Register = () => {
                            <FormGroup>
                               <input type="password" placeholder='Password' id='password' onChange={handleChange} required />
                            </FormGroup>
-                           <Button className='btn secondary__btn auth__btn' type='submit'>Create Account</Button>
+                           <Button className='btn secondary__btn auth__btn' type='submit'>Create Account Now</Button>
                         </Form>
                         <p>Already have an account? <Link to='/login'>Login</Link></p>
                      </div>
