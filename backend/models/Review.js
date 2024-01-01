@@ -4,7 +4,7 @@ const reviewSchema = new mongoose.Schema(
   {
     productId: {
       type: mongoose.Types.ObjectId,
-      ref: "Tour",
+      ref: "Tours",
     },
     username: {
       type: String,
@@ -25,4 +25,4 @@ const reviewSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("Review", reviewSchema);
+export default mongoose.model("Reviews", reviewSchema);
