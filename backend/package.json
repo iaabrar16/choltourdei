@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -21,6 +20,8 @@
     "jsonwebtoken": "^9.0.0",
     "mongodb": "^5.1.0",
     "mongoose": "^6.10.0",
-    "nodemon": "^2.0.20"
-  }
+    "nodemon": "^2.0.20",
+    "package.json": "^2.0.1"
+  },
+  "description": ""
 }

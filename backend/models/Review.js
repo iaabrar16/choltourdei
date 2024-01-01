@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+/*Review*/
 const reviewSchema = new mongoose.Schema(
   {
     productId: {
